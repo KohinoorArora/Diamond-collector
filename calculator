@@ -46,7 +46,7 @@ int main()
             case '/': division();
                       break;
  
-            case '\': modulus();
+            case '?': modulus();
                       break;
  
             case '!': factorial();
@@ -55,8 +55,8 @@ int main()
             case '^': power();
                       break;
  
-            case 'O':
-            case 'o': calculator_operations();
+            case 'H':
+            case 'h': calculator_operations();
                       break;
  
             case 'Q':
@@ -88,7 +88,7 @@ void calculator_operations()
  
     printf("******* Press 'Q' or 'q' to quit ");
     printf("the program ********\n");
-    printf("***** Press 'O' or 'o' to display ");
+    printf("***** Press 'H' or 'h' to display ");
     printf("below options *****\n\n");
     printf("Enter 'C' or 'c' to clear the screen and");
     printf(" display available option \n\n");
@@ -97,7 +97,7 @@ void calculator_operations()
     printf("Enter - symbol for Subtraction \n");
     printf("Enter * symbol for Multiplication \n");
     printf("Enter / symbol for Division \n");
-    printf("Enter \ symbol for Modulus\n");
+    printf("Enter ? symbol for Modulus\n");
     printf("Enter ^ symbol for Power \n");
     printf("Enter ! symbol for Factorial \n\n");
 }
